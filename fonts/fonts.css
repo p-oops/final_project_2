@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Hortensia';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Hortensia'), url('Hortensia-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hanken Grotesk'), url('HankenGrotesk-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Hanken Grotesk'), url('HankenGrotesk-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Hanken Grotesk'), url('HankenGrotesk-Bold.woff2');
+}

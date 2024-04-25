@@ -1,0 +1,605 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 95%;
+    }
+
+    .section-first .offer-container .offer-items {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .important-notes-section .common-area-container .common-area-items {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .accommodation-section .accommodation-item .left-block .item-img {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .accommodation-section .item1, .accommodation-section .item2 {
+        border-bottom: none;
+    }
+
+
+    .swiper .swiper-slide img {
+        height: 100%;
+    }
+
+    .accommodation-section .accommodation-item .left-block img {
+        width: 100%;
+    }
+
+    .accommodation-section .accommodation-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .accommodation-section .item2 .dark-block2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .section-first .offer-container .nature-container .text-contaner .text1, 
+    .section-first .offer-container .nature-container .text-contaner .text3 {
+        font-size: 60px;
+    }
+
+    .section-first .top-container header nav ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+        min-height: 100vh;
+        background-color: #f6f5ea;
+        opacity: 1;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        width: 50%;
+        color: #fff;
+        right: -100%;
+        padding-left: 16px;
+        padding-top: 80px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+
+    }
+
+    .section-first .top-container header nav ul li {
+        margin-bottom: 37px;
+    }
+
+    
+    .section-first .nav-list .nav-item a {
+        font-size: 16px;
+        color: #040006;
+    }
+
+    .section-first .top-container header nav ul .nav-btn {
+        display: none;
+    }
+
+    .section-first .top-container header nav ul.mob-menu {
+        right: 0;
+    }
+
+    .section-first .nav-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .section-first .nav-mobile .nav-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 40%;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .section-first .nav-mobile select {
+        background: none;
+        border: none;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text2 {
+        font-size: 30px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-details,
+    .important-notes-section .common-area-container .common-area-items .item-desc .item-details {
+        width: 90%;
+        font-size: 14px;
+    }
+
+
+    .important-notes-section .common-area-container .common-area-items .item-flex .item-logo img,
+    .section-first .offer-container .offer-items .item-flex .item-logo img {
+        width: 70px
+    }
+
+    .accommodation-section .accommodation-item ul {
+        font-size: 18px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .section-first .nav-list {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 780px) {
+    .section-first .top-container header {
+        margin-bottom: 60px;
+    }
+
+    .accommodation-section .accommodation-item .right-block {
+        width: 100%;
+    }
+
+    .section-first .offer-container .nature-container {
+        height: 280px;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text1 {
+        margin-right: 0;
+    }
+
+    .swiper {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-first .top-container .flex-container {
+        height: 400px;
+    }
+
+    .section-first .top-container .flex-container .top-container-content h1 {
+        font-size: 30px;
+    }
+
+    .section-first .top-container .flex-container .top-container-content p {
+        font-size: 16px;
+    }
+
+    .section-first .top-container {
+        height: 584px;
+    }
+
+    .section-first .bottom-container .bottom-container-content h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section-first .bottom-container .bottom-container-content p {
+        font-size: 11px;
+    }
+
+    .section-first .offer-container h2 {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .section-first .offer-container .offer-items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .important-notes-section .common-area-container .common-area-items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .important-notes-section .common-area-container .common-area-items .item-flex .item-logo img,
+    .section-first .offer-container .offer-items .item-flex .item-logo img {
+        width: 80px;
+    }
+
+    .important-notes-section .planning-container .planning-desc {
+        width: 100%;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-name {
+        font-size: 16px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-details, 
+    .important-notes-section .common-area-container .common-area-items .item-desc .item-details {
+        font-size: 16px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-details, 
+    .important-notes-section .common-area-container .common-area-items .item-desc .item-details {
+        width: 100%
+    }
+
+    .section-first {
+        margin-bottom: 64px;
+    }
+
+    .accommodation-section h2 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .section-first .offer-container .offer-items {
+        margin-bottom: 64px;
+    }
+
+    .section-first .offer-container .nature-container {
+        height: 300px;
+    }
+
+
+
+    .accommodation-section .accommodation-item .left-block .item-img {
+        margin-bottom: 0;
+    }
+
+    .accommodation-section .accommodation-item .right-block {
+        border: 1px solid grey;
+        border-top: none;
+    }
+
+    .accommodation-section .accommodation-item ul {
+        padding-top: 16px;
+    }
+
+    .accommodation-section .accommodation-item .right-block .top-block {
+        padding-bottom: 16px;
+    }
+
+    .accommodation-section .accommodation-item .right-block .bottom-block {
+        padding-top: 16px;
+    }
+
+    .accommodation-section .accommodation-item .right-block .bottom-block a {
+        margin-bottom: 16px;
+        padding: 17px 0;
+        width: 200px;
+        text-align: center;
+    }
+
+    .accommodation-section .item1 .right-block .bottom-block .text-block {
+        margin-bottom: 16px;
+    }
+
+    .accommodation-section .accommodation-item .right-block .bottom-block p:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .accommodation-section .item3 .bottom-block ul {
+        margin-bottom: 16px;
+    }
+
+    .accommodation-section .item3 .bottom-block ul.list2 {
+        padding-left: 0;
+    }
+
+    .vibe .vibe-info {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .vibe .flex-contain {
+        padding-bottom: 32px;
+    }
+
+    .vibe {
+        margin-bottom: 32px;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text1 {
+        margin-bottom: 20px;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text1, 
+    .section-first .offer-container .nature-container .text-contaner .text3 {
+        font-size: 40px;
+    }
+
+
+    .important-notes-section h2,
+    .vibe h2 {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+
+    .swiper {
+        height: 180px;
+    }
+
+    .important-notes-section h3 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .important-notes-section .concept-container .concept-desc {
+        font-size: 16px;
+    }
+
+    .important-notes-section .common-area-container .common-area-items .item-desc .item-name {
+        font-size: 14px;
+    }
+
+    .important-notes-section .planning-container .planning-desc {
+        font-size: 14px;
+    }
+
+    .important-notes-section .planning-container .flex-contain ul {
+        font-size: 14px;
+    }
+
+    .important-notes-section .planning-container .planning-desc {
+        margin-bottom: 16px;
+    }
+
+    .important-notes-section .planning-container .flex-contain {
+        padding-left: 0;
+        padding-bottom: 32px;
+    }
+
+    .important-notes-section .forest-img {
+        margin-top: 32px;
+    }
+
+    .important-notes-section {
+        margin-bottom: 64px;
+    }
+
+    .faq-section h2 {
+        margin-bottom: 32px;
+    }
+
+    .faq-section {
+        margin-bottom: 64px;
+    }
+
+    .faq-section h2 {
+        font-size: 36px;
+    }
+
+    .faq-section .question-item .question-info .question {
+        font-size: 16px;
+    }
+
+    .faq-section .question-item .question-info p {
+        font-size: 12px;
+    }
+
+    .contacts-section h2 {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .contacts-section .contacts-info {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .center {
+        width: 90%;
+    }
+    .section-first .nav-mobile select {
+        font-size: 16px;
+    }
+    .section-first .top-container .flex-container .top-container-content {
+        text-align: left;
+
+    }
+
+    .section-first .top-container .flex-container .top-container-content p {
+        font-size: 12px;
+        width: 158px;
+    }
+
+    .section-first .top-container .flex-container a {
+        -ms-flex-item-align: baseline;
+            align-self: baseline;
+        font-size: 12px;
+    }
+
+    .section-first .top-container {
+        margin-bottom: 32px;
+    }
+
+    .section-first .bottom-container .bottom-container-content {
+        text-align: left;
+    }
+
+    .section-first .bottom-container .bottom-container-content h2 {
+        margin-bottom: 16px;
+    }
+
+    .section-first .bottom-container .bottom-container-content p {
+        padding-bottom: 32px;
+    }
+
+    .section-first .bottom-container {
+        margin-bottom: 32px;
+    }
+    .section-first .offer-container h2 {
+        font-size: 24px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-name {
+        font-size: 14px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-details {
+        font-size: 14px;
+    }
+
+    .section-first .offer-container .nature-container {
+        height: 180px;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text1, 
+    .section-first .offer-container .nature-container .text-contaner .text3 {
+        font-size: 32px;
+    }
+
+    .section-first .offer-container .nature-container .text-contaner .text2 {
+        font-size: 14px;
+    }
+
+    .accommodation-section .accommodation-item:not(:last-child) {
+        padding-top: 32px;
+    }
+
+    .accommodation-section h2 {
+        font-size: 24px;
+    }
+
+    .accommodation-section .accommodation-item:not(:last-child) {
+        padding-bottom: 0;
+    }
+
+    .accommodation-section .accommodation-item .left-block .dark-block {
+        padding: 19px 0;
+    }
+
+    .accommodation-section .accommodation-item .left-block .item-name {
+        font-size: 12px;
+        margin-bottom: 0;
+
+    }
+
+    .accommodation-section .accommodation-item .left-block .item-desc {
+        display: none;
+    }
+
+    .accommodation-section .item2 .dark-block2 {
+        display: none;
+    }
+
+    .accommodation-section .accommodation-item ul,
+    .accommodation-section .accommodation-item .right-block .bottom-block p {
+        font-size: 12px;
+        line-height: 200%;
+    }
+
+    .accommodation-section .item2 .right-block .bottom-block .text-block {
+        margin-bottom: 16px;
+    }
+
+    .accommodation-section .accommodation-item .right-block .bottom-block a {
+        font-size: 12px;
+    }
+
+    .accommodation-section .item3 .bottom-block ul {
+        font-size: 12px;
+    }
+
+    .accommodation-section {
+        margin-bottom: 64px;
+    }
+
+    .important-notes-section h2, .vibe h2 {
+        font-size: 24px;
+    }
+
+    .swiper {
+        height: 120px;
+        margin-bottom: 32px;
+    }
+
+    .vibe .vibe-info {
+        font-size: 11px;
+    }
+
+    .important-notes-section .concept-container .concept-desc {
+        font-size: 12px;
+    }
+
+    .important-notes-section .concept-container .concept-desc {
+        margin-bottom: 32px;
+    }
+
+    .section-first .offer-container .offer-items .item-flex .item-desc .item-details, .important-notes-section .common-area-container .common-area-items .item-desc .item-details {
+        font-size: 12px;
+    }
+
+    .important-notes-section .common-area-container .common-area-head {
+        margin-bottom: 24px;
+    }
+
+    .important-notes-section .common-area-container {
+        margin-bottom: 32px;
+    }
+
+    .important-notes-section .planning-container .planning-desc {
+        font-size: 12px;
+    }
+
+    .important-notes-section .planning-container .flex-contain ul {
+        font-size: 12px;
+    }
+
+    .important-notes-section .forest-img .forest-text {
+        font-size: 20px;
+        width: 232px;
+    }
+
+    .important-notes-section .forest-img {
+        height: 122px;
+    }
+
+    .faq-section .question-item {
+        padding-top: 33px;
+        padding-bottom: 0;
+    }
+
+
+}

@@ -1,0 +1,113 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.section-first .top-container .flex-container {
+    -webkit-animation-name: changePosition;
+            animation-name: changePosition;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+
+}
+
+.section-first .offer-container .offer-items .item-flex .item-logo:hover {
+    -webkit-animation-name: rotateElement;
+            animation-name: rotateElement;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+}
+
+.important-notes-section .common-area-container .common-area-items .item-flex .item-logo:hover {
+    -webkit-animation-name: rotateElement;
+            animation-name: rotateElement;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+}
+
+.contacts-section .social img:hover {
+    -webkit-animation-name: changeWidth;
+            animation-name: changeWidth;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes changePosition {
+    from {
+        opacity: 0.2;
+        -webkit-transform: translateX(5%);
+                transform: translateX(5%);
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes changePosition {
+    from {
+        opacity: 0.2;
+        -webkit-transform: translateX(5%);
+                transform: translateX(5%);
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateElement {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateElement {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes changeWidth {
+    from {
+        width: 24px;
+        
+    }
+
+    to {
+        width: 35px;
+    }
+}
+
+@keyframes changeWidth {
+    from {
+        width: 24px;
+        
+    }
+
+    to {
+        width: 35px;
+    }
+}

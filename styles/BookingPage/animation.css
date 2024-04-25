@@ -1,0 +1,37 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.contacts-section .social img:hover {
+    -webkit-animation-name: changeWidth;
+            animation-name: changeWidth;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes changeWidth {
+    from {
+        width: 24px;
+        
+    }
+
+    to {
+        width: 35px;
+    }
+}
+
+@keyframes changeWidth {
+    from {
+        width: 24px;
+        
+    }
+
+    to {
+        width: 35px;
+    }
+}
